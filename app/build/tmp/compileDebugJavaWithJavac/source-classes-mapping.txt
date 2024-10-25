@@ -1,0 +1,4 @@
+com/example/videocompressor/MainActivity.java
+ com.example.videocompressor.MainActivity
+com/example/videocompressor/BuildConfig.java
+ com.example.videocompressor.BuildConfig

@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.videocompressor" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:19:5-79
+9-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:19:22-77
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:20:5-80
+10-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:20:22-78
+11
+12    <application
+12-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:4:5-17:19
+13        android:allowBackup="true"
+13-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:5:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.5.0] /root/.gradle/caches/transforms-3/e759884e8e1539e68246ec4d8729cc98/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:6:9-43
+17        android:label="Video Compressor"
+17-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:7:9-41
+18        android:supportsRtl="true"
+18-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:8:9-35
+19        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+19-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:9:9-65
+20        <activity
+20-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:10:9-16:20
+21            android:name="com.example.videocompressor.MainActivity"
+21-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:10:19-47
+22            android:screenOrientation="portrait" >
+22-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:11:13-49
+23            <intent-filter>
+23-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:12:13-15:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:13:17-69
+24-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:13:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:14:17-77
+26-->/root/android/VideoCompressor/app/src/main/AndroidManifest.xml:14:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

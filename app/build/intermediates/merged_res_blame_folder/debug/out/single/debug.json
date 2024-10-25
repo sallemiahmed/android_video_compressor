@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/android/VideoCompressor/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/root/android/VideoCompressor/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/android/VideoCompressor/app/build/intermediates/merged_res/debug/mipmap_ic_launcher.png.flat",
+        "source": "/root/android/VideoCompressor/app/src/main/res/mipmap/ic_launcher.png"
+    }
+]
